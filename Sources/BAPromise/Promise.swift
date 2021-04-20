@@ -16,6 +16,8 @@ internal protocol AtomicCancel {
 #if canImport(Atomics)
 import Atomics
 internal class AtomicsCancel: AtomicCancel {
+    let underlying = ManagedAtomic<Int>(0)
+
     public var isCanceled: Bool {
         return underlying.load(ordering: .relaxed) == 0 ? false : true
     }

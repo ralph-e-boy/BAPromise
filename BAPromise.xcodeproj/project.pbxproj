@@ -76,7 +76,6 @@
 		57C8ADD0255F334B00763ED5 /* Promise+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFAEB18212C71C500777107 /* Promise+ObjC.swift */; };
 		6F6C8C0B6970DFB7A14E3423 /* Pods_OS_X_OS_XTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90205B55A87D2F3869C79E4 /* Pods_OS_X_OS_XTests.framework */; };
 		C9843192B1033B9887D6325A /* Pods_iOS_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EB8957964B1D09D022C484 /* Pods_iOS_iOSTests.framework */; };
-		D1E0E9C2C71BFBE3BFDF4F22 /* Pods_OS_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77BFEAC3DF4C3784C6CBB4F /* Pods_OS_X.framework */; };
 		E712B3311B7E6B4800590AA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E712B3301B7E6B4800590AA8 /* AppDelegate.m */; };
 		E712B3341B7E6B4800590AA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E712B3331B7E6B4800590AA8 /* main.m */; };
 		E712B3361B7E6B4800590AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E712B3351B7E6B4800590AA8 /* Assets.xcassets */; };
@@ -212,7 +211,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E0E9C2C71BFBE3BFDF4F22 /* Pods_OS_X.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
